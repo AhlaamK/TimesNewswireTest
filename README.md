@@ -21,4 +21,4 @@ A simple android app to hit the NY Times Most Popular Articles API and show a li
 3. Choose the 'whole project' option and click OK .
 4. Generated Report will be displayed in the Inspection Results.
 ## Demo
-![Farmers Market Finder Demo](demo/demo.gif)
+![TimesNewsWireTest Demo](ezgif.com-optimize.gif)
