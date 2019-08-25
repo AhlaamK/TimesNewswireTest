@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="3"
+    android:gravity="center"
+   >
+
+
+   <!-- <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:justifyContent="space_between"
+        app:alignItems="center"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        >-->
+        <!--app:flexWrap="wrap"-->
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_weight="0.5"
+       >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/newsImageview"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:scaleType="fitStart"
+            app:riv_corner_radius="10dip"
+            app:riv_border_width="1dip"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="repeat"
+            app:riv_oval="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2.4"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/abstract_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="dfdf"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/byline_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+
+            />
+        <TextView
+            android:id="@+id/published_date_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_action_datetime"
+            android:layout_gravity="right|top"
+
+
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.1"
+    android:gravity="right|bottom"
+
+    >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:layout_gravity="right"
+        android:src="@drawable/ic_action_arrow" />
+</LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+      <!--  <TextView
+            android:id="@+id/abstract_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.245"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/newtextview"
+            app:layout_constraintVertical_bias="0.006" />
+-->
+<!--</LinearLayout>-->
+<!--
+</android.support.constraint.ConstraintLayout>-->
